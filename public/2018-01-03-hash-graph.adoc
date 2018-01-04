@@ -64,7 +64,7 @@ L3 caches.  This test is filling up 50% of the elements using 2^N^ hash table
 sizes.  I did not go beyond 64GB because that is 50% of ram and I used Posix
 shared memory to allocate the hash table.
 
-image:public/20180103_graph.svg["Single Threaded Latency Graph"]
+image:2018-01-03-hash-graph.svg["Single Threaded Latency Graph"]
 [width="100%",options="header"]
 |===========================================
 |HT size| 50% elems  | Latency | Rate    | Prefetch4 | Rate4     | Prefetch8
